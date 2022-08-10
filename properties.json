@@ -1,0 +1,83 @@
+[{
+  "_id": id,
+  "name": "name1",
+  "offer_type": "residentual",
+  "description": "Very Neat , Very Safe, Spacious, Upstairs Well Run. – 3 Beds, 2 Baths Spacious Lounge, Dining area, Balcony with Braai. Very Modern Kitchen with granite Tops. 2 Carports available for that Unit. Cameras right around the Complex 24 Hrs protection. Fibre Available. Enjoy the Country Living with all the Conveniences!!",
+  "price": "R100000",
+  "status": "for sale",
+  "property_details": {
+    "property_type": "house",
+    "erf_size": erf_size,
+    "bedrooms": 2,
+    "zip_code": 1818,
+    "bathrooms": 3,
+    "kitchen": 1,
+    "garage": 2
+  },
+  "agents": [
+    {
+      "_id": "128dnu",
+      "name": "Agent_name1",
+      "contact_details": {
+        "email": "test@example.com",
+        "whatsApp": "+444444444",
+        "phone_number": "+3349403940"
+      },
+      "office_location": {
+        "area": "johannesburg",
+        "suburb": "sandton",
+        "address": "5 Hoogenhout St meyerton",
+        "province": "gauteng",
+        "office": "office"
+      }
+    }
+  ],
+  "location": {
+    "area": "johannesburg",
+    "suburb": "sandton",
+    "address": "5 Hoogenhout St meyerton",
+    "province": "gauteng"
+  }
+},
+{
+  "_id": id,
+  "name": "name2",
+  "offer_type": "residentual",
+  "description": "Very Neat , Very Safe, Spacious, Upstairs Well Run. – 3 Beds, 2 Baths Spacious Lounge, Dining area, Balcony with Braai. Very Modern Kitchen with granite Tops. 2 Carports available for that Unit. Cameras right around the Complex 24 Hrs protection. Fibre Available. Enjoy the Country Living with all the Conveniences!!",
+  "price": "R100000",
+  "status": "for sale",
+  "property_details": {
+    "property_type": "house",
+    "erf_size": erf_size,
+    "bedrooms": 2,
+    "zip_code": 1818,
+    "bathrooms": 3,
+    "kitchen": 1,
+    "garage": 2
+  },
+  "agents": [
+    {
+      "_id": "128dnu",
+      "name": "Agent_name2",
+      "contact_details": {
+        "email": "test@example.com",
+        "whatsApp": "+444444444",
+        "phone_number": "+3349403940"
+      },
+      "office_location": {
+        "area": "johannesburg",
+        "suburb": "sandton",
+        "address": "5 Hoogenhout St meyerton",
+        "province": "gauteng",
+        "office": "office"
+      }
+    }
+  ],
+  "location": {
+    "area": "johannesburg",
+    "suburb": "sandton",
+    "address": "5 Hoogenhout St meyerton",
+    "province": "gauteng"
+  }
+}
+]
