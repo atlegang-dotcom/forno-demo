@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>forno test</title>
+  </head>
+  <body>
+    <p id="test1"></p>
+  </body>
+  <script type="text/javascript">
+    fetch('agents.json').then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error, status ${response.status}`);
+      } else {
+        return response.json()
+      }
+    }).then((data) => {
+      document.getElementById("test1").innerHTML = data[0].agents.id;
+    }).catch((error) => {
+      const p = document.createElement("p");
+      p.appendChild(document.createTextNode(`Error: ${error.message}`));
+      document.body.insertBefore(p);
+    });
+  </script>
+</html>
