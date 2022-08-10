@@ -1,6 +1,4 @@
 [
-{
-"agents":
   {
     "_id": "128dnu",
     "name": "Agent_name1",
@@ -41,10 +39,7 @@
       }
     }
     ]
-  }
-},
-{
-"agents":
+  },
   {
     "_id": "134fuu",
     "name": "Agent_name2",
@@ -86,5 +81,4 @@
     }
     ]
   }
-}
 ]
